@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(5, 3, 107)
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav a {
+    color: #f8f8f8;
+    margin-right: 10px;
+    text-decoration: none;
+}
+img {
+    width: 400px;
+  }
+p {
+    flex: 1; 
+    margin-right: 20px; 
+}
