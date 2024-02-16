@@ -5,6 +5,9 @@ body{
 h1{
     color: white;
 }
+h2{
+    color: white;
+}
 p{
     color: white;
 }
@@ -17,6 +20,11 @@ nav a {
     margin-right: 10px;
     text-decoration: none;
 }
+nav [data-destaque] {
+    color: rgb(52, 36, 192);
+    font-weight: bold;
+
+  }
 img {
     width: 400px;
   }

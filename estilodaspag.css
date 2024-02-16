@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Athene', sans-serif;
     background-color: rgb(5, 3, 107)
   }
  
@@ -20,11 +20,11 @@ body {
   }
   h1{
     color: white;
-    margin-right: 1000px; /* Define a margem direita como 20 pixels */
+    margin-right: 1240px; /* Define a margem direita como 20 pixels */
   }
   p{
     color: white;
-      margin-right: 1000px; /* Define a margem direita como 20 pixels */
+      margin-right: 1240px; /* Define a margem direita como 20 pixels */
   }
   #container {
     text-align: center;
@@ -35,6 +35,33 @@ body {
   }   
   img {
     width: 400px;
-    margin-right: 1000px; /* Define a margem direita como 20 pixels */
+    margin-right: 1350px; /* Define a margem direita como 20 pixels */
   }
-  
+
+  .slideshow-container {
+    position: relative;
+    max-width: 85%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.0s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url('Athene.otf') format('oft');
+}
+
+
