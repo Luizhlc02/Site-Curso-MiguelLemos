@@ -1,7 +1,11 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: rgb(5, 3, 107)
-}
+body {
+    background-color: rgb(1, 1, 46)
+  }
+  .crimson-text-semibold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
 h1{
     color: white;
 }

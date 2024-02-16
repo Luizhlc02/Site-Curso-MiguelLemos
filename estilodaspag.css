@@ -1,8 +1,11 @@
 body {
-    font-family: 'Athene', sans-serif;
-    background-color: rgb(5, 3, 107)
+    background-color: rgb(1, 1, 46)
   }
- 
+  .crimson-text-semibold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
   nav {
     background-color: #333;
     padding: 10px;
@@ -20,7 +23,9 @@ body {
   }
   h1{
     color: white;
-    margin-right: 1240px; /* Define a margem direita como 20 pixels */
+  }
+  h4{
+    color: #f8f8f8;
   }
   p{
     color: white;
@@ -35,14 +40,18 @@ body {
   }   
   img {
     width: 400px;
-    margin-right: 1350px; /* Define a margem direita como 20 pixels */
+    margin-right: 1350px; 
   }
-
+  .Imagemcomplemento{
+    width: 60px;
+  }
   .slideshow-container {
     position: relative;
     max-width: 85%;
     overflow: hidden;
     margin: auto;
+    width: 400px;
+    margin-right: 1350px; 
 }
 
 .slide {
@@ -59,9 +68,3 @@ body {
     from {opacity: .4}
     to {opacity: 1}
 }
-@font-face {
-  font-family: 'MinhaFonte';
-  src: url('Athene.otf') format('oft');
-}
-
-
