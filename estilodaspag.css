@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(1, 1, 46)
-  }
+    background-image: linear-gradient(to left,#01012E,#010A2E,#01192E) }
   .crimson-text-semibold-italic {
     font-family: "Crimson Text", serif;
     font-weight: 600;
@@ -29,8 +28,12 @@ body {
   }
   p{
     color: white;
-      margin-right: 1240px; /* Define a margem direita como 20 pixels */
+    margin-left: 500px;
+    margin-top: -450px;
+    text-align: left;
+    font-size:larger;
   }
+
   #container {
     text-align: center;
   }
@@ -39,32 +42,33 @@ body {
 
   }   
   img {
-    width: 400px;
-    margin-right: 1350px; 
+    width: 400px; 
+    margin-top: 10px;
   }
-  .Imagemcomplemento{
-    width: 60px;
-  }
+  .Imagemcomplemento {
+    float: left;
+    margin-right: 1350px; /* Adicione uma margem à direita para separar a imagem do slideshow */
+ }
   .slideshow-container {
     position: relative;
     max-width: 85%;
     overflow: hidden;
     margin: auto;
     width: 400px;
-    margin-right: 1350px; 
-}
+    margin-right: 1400px; 
+ }
 
 .slide {
     display: none;
 
-}
+  }
 
 .fade {
     animation-name: fade;
     animation-duration: 1.0s;
-}
+ }
 
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-}
+ }
